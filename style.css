@@ -1,0 +1,154 @@
+body{
+    background-color: #AAA;
+    padding: 0px 15px;
+}
+.container{
+    background-color: #FFF;
+    padding: 0;
+}
+
+/* navbar */
+nav .collapse.navbar-collapse li a{
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #AAA;
+    color: #FFF;
+}
+
+/* button grey */
+.btn.btn-white{
+    border: 1px solid rgb(141, 141, 141);
+}
+/* banner banners */
+#banner-top{
+    background-image: url("https://lorempixel.com/1110/400/city/");
+    height: 400px;
+}
+#banner-services{
+    background-image: url("https://lorempixel.com/1110/400/transport/");
+    height: 400px;
+    margin: 40px 0px;
+}
+
+#banner-top,
+#banner-services{
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner-top,
+#banner-services{
+    display: flex;
+    justify-content: center;
+}
+#banner-top .h5,
+#banner-services .h5,
+#form-shadow .h5{
+    color: #FFF;
+    font-size: 50px;
+    text-shadow: 2px 2px #000 ;
+}
+#banner-top p{
+    color: #FFF;
+    font-size: 18px;
+}
+
+/* max-width - columns */
+#three-col .col-lg-4.col-md-6.col-sm-12.p-3{
+    max-width: 340px;
+    
+}
+#two-col .col-lg-6.col-md-12.col-sm-12{
+    max-width: 519px;
+    
+}
+#four-col .col-lg-3.col-md-6.col-sm-12.mt-3{
+    max-width: 246px
+
+}
+
+/* background color - content columns */
+#four-col .content.p-3,
+#big-col .content.p-4,
+#two-col .content.p-3,
+#three-col .content.p-3{
+    background-color: #CCC;
+}
+
+/* justify-column */
+#three-col,
+#two-col,
+#four-col{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* form */
+#form-bg{
+    margin-top: 40px;
+    background-image: url("https://lorempixel.com/1074/800/sports/");
+    height: 600px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    flex-direction: column;
+}
+#form-shadow{
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form-shadow #area-content{
+    max-width:600px;
+}
+#form-shadow #area-content .h5{
+    text-align: center;
+}
+#form-shadow #area-content p{
+    background-color: rgba(204, 204, 204, 0.707);
+    color: #000;
+    padding: 10px 30px ;
+}
+#form-shadow #area-content textarea{
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+
+    resize: none;
+    width: 100%;
+    height: 146px;
+}
+/* footer */
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#footer .space{
+    width: 100%;
+    height: 1px;
+    margin: 20px 0px;
+    border: 2px solid #CCC;
+}
+
+/* 
+resize: none
+height: 146px */
